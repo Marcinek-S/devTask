@@ -237,7 +237,7 @@ function App() {
     }
 
     if (filterOptions["Sortuj po"] === "Wszystkie") {
-      updatedProd = updatedProd;
+      updatedProd = products;
     } else if (filterOptions["Sortuj po"] === "Cena") {
       updatedProd = updatedProd.sort((a, b) => a.price - b.price);
     } else if (filterOptions["Sortuj po"] === "Pojemność") {
