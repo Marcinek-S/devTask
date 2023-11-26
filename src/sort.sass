@@ -1,0 +1,86 @@
+.searchContainer
+    width: 249px
+    height: 36px
+    padding: 8px 12px
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    gap: 10px
+    margin-top: 23px
+    margin-bottom: 32px
+.searchBar
+    width: 218px
+    height: 36px
+    padding: 8px 12px
+    background-color: #FFF
+    position: absolute
+    top: 89px
+    left: 556px
+.search
+    border: none
+    outline: none
+.search:focus
+    border: none
+    outline: none
+.filterContainer
+    width: 1032px
+    height: 67px
+    display: flex
+    justify-content: space-between
+.fliterContent
+    display: flex
+    flex-direction: column
+    width: 249px
+    height: 63px
+.fliterContent label
+    widows: 244px
+    height: 20px
+    color: #000
+    font-family: SamsungOne
+    font-size: 18px
+    font-style: normal
+    font-weight: 700
+    line-height: 22px
+    margin-bottom: 7px
+.filterBox
+    display: flex
+    width: 249px
+    padding: 8px 12px
+    align-items: flex-start
+    justify-content: space-between
+    gap: 10px
+    background: #FFF
+    border: none
+.dropDown
+    width: 13px
+    height: 13px
+    border: none
+    background-image: url(../img/Polygon.svg),
+    background-position: center right
+    background-repeat: no-repeat
+    outline: none
+.dropDown.close
+    transform: rotate(180deg)
+.filterBox:hover
+    cursor: pointer
+.dropDownOptions
+    margin-top: 8px
+    display: flex
+    width: 249px
+    background: #FDFDFD
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.02)
+    flex-direction: column
+    z-index: 1
+.dropDownOptions li
+    width: 249px
+    height: 40px
+    flex-shrink: 0
+    list-style-type: none
+    display: flex
+    align-items: center
+    padding-left: 17px
+.dropDownOptions li:nth-child(2)
+    background-color: #F3F3F3
+.dropDownOptions.hidden
+    display: none

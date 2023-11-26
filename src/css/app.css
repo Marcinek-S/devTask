@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "SamsungOne";
+  src: url("https://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-500_v1.0.ttf") format("truetype");
+}
+body {
+  font-family: "SamsungOne", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: SamsungOne;
+}
+
+html {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.App {
+  background-color: #FFF;
+  width: 1440px;
+  height: 1716px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headline h1 {
+  color: #000;
+  text-align: center;
+  font-family: SamsungOne;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  width: 346px;
+}
+
+.content {
+  width: 1440px;
+  height: auto;
+  background-color: #F8F8F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.results {
+  width: 1024px;
+  height: 22px;
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px 0 12px 0;
+}
+
+.productsDisplay {
+  width: 1046px;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.productList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+}
+
+.showMore {
+  margin: 20px 0 54px 0;
+  width: 118px;
+  height: 20px;
+  color: #007AFF;
+  text-align: center;
+  font-family: SamsungOne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.showMore span {
+  padding-right: 9px;
+}
+
+.showMore:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,200 @@
+.card {
+  width: 338px;
+  height: 603px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px 24px;
+  gap: 10px;
+  border-radius: 20px;
+  background: #FFF;
+}
+
+.imageBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.name {
+  width: 290px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 29px;
+  padding-right: 10px;
+}
+
+.specs {
+  color: #767676;
+  font-family: SamsungOne;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  height: 145px;
+}
+
+.specValue {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.energy {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #767676;
+  font-family: SamsungOne;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.energyLabel {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 9px;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.priceTime {
+  color: #767676;
+  font-family: SamsungOne;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.priceValue {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 290px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+}
+
+.priceValue h1 {
+  font-family: SamsungOne;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.currency {
+  width: 19px;
+  height: 31px;
+  text-align: right;
+  font-family: SamsungOne;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.loan {
+  color: #555555;
+  font-family: SamsungOne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  height: 18px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  padding: 14px 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.pick {
+  width: 150px;
+  height: 36px;
+  border-radius: 24px;
+  text-align: center;
+  background-color: #1428A0;
+  color: #FFF;
+  font-family: SamsungOne;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.pick.active {
+  background-color: #1C1C1C;
+}
+
+.pick:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=card.css.map */
